@@ -238,3 +238,17 @@ body{
     width: 100%;
     
 }
+.footer_start{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    color: #fff;
+    
+}
