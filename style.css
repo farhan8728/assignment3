@@ -258,7 +258,7 @@ body{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .menubutton{
         margin-left: 8.438rem;
     }
@@ -277,7 +277,7 @@ body{
         width: 100%;
     }
     .course_img_1{
-        width: 380px;
+        width: 370px;
     }
     .courseone_details{
         padding-left: 80px;
@@ -326,3 +326,5 @@ body{
         flex-direction: row;
     }
   }
+
+
