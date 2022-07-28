@@ -252,3 +252,12 @@ body{
     color: #fff;
     
 }
+
+
+
+
+@media screen and (max-width: 600px) {
+    .menubutton{
+        margin-left: 7.813rem;
+    }
+  }
