@@ -256,9 +256,11 @@ body{
 .view_all_course{
     display: none;
 }
+.feedback_view{
+    display: none;
+}
 
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 766px) {
     .menubutton{
         margin-left: 8.438rem;
     }
@@ -325,6 +327,76 @@ body{
         justify-content: center;
         flex-direction: row;
     }
+    .feedback_view{
+        display: block;
+        margin: 0 auto;
+    }
+
   }
 
+
+  @media screen and (min-width:767px) and (max-width:992px){
+    .menubutton1{
+        display: block;
+        margin-left: 500px;
+        margin-top: -50px;
+    }
+    .menubutton{
+        display: none;
+    }
+    .digitaltransmission{
+        display: none;
+    }
+    .discover_our{
+        text-align: center;
+    }
+    .trusted{
+        display: none;
+    }
+    .meeth1{
+        text-align: center;
+    }
+    .meetp{
+        text-align: center;
+    }
+    .readytojoin{
+        padding-right: 50px;
+    }
+    .readytojoin_register{
+        margin-top: -50px;
+        
+    }
+    .elearning{
+        padding-right: 30px;
+    }
+    .elearn_img{
+        width:350px;
+        height: 900px;
+    }
+    .elearning_details{
+        margin-top: 0px;
+    }
+    .feedback_view{
+        display: block;
+        margin: 0 auto;
+    }
+    .digital{
+        padding-top: 100px;
+    }
+    .more_courses_btn{
+        display: none;
+    }
+    .view_all_course{
+        display: block;
+    }
+    .courseone{
+        width: 100%;
+    }
+    .image_course5{
+        display: none;
+    }
+    .star{
+        margin-left: 100px;
+    }
+  }
 
